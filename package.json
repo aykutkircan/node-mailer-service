@@ -1,0 +1,34 @@
+{
+  "name": "mail-service",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=16.13.0",
+    "npm": ">=8.1.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "nodemailer",
+    "mail",
+    "send mail"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aykutkircan/node-mailer-service.git"
+  },
+  "author": {
+    "name": "Aykut Kırcan",
+    "email": "aykutkircan@icloud.com",
+    "github": "https://github.com/aykutkircan"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.9",
+    "handlebars": "^4.7.7",
+    "nodemailer": "^6.9.4"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "mail": {
+    "transport": {
+      "service": "gmail",
+      "auth": {
+        "user": "<your_user>",
+        "pass": "<your_pass>"
+      }
+    },
+    "sender": "Mail Sender from <sender_mail_address>"
+}
+}
